@@ -1,8 +1,12 @@
 # IUT_SD3
 
+## OBJECTIFS
+
 Voici les objectifs de ce module :
 - [x] avoir les bonnes pratiques d'un projet de dévelopement avec GitHub 
 - [x] se familiariser avec les frameword Cloud
+
+## PLANNING
 
 Pour cela, nous découperons les séances comme telles : 
 
@@ -14,11 +18,26 @@ Pour cela, nous découperons les séances comme telles :
 6. Versionnement de modèle et deploiement avec ML Flow
 7. Etude de cas
 
-Voici quelques liens utiles qui pourrait vous aider durant ce projet : 
+## LIENS UTILES
 
--[Markdown Cheat Sheet]('https://www.markdownguide.org/cheat-sheet/')
--[GitHub Cheat Sheet]('https://training.github.com/downloads/fr/github-git-cheat-sheet.pdf')
--[GitHub Get Started]('https://docs.github.com/fr/get-started/quickstart/hello-world')
--[GitHub Set up]('https://docs.github.com/fr/get-started/quickstart/set-up-git')
+Voici quelques liens utiles qui pourrait vous aider durant ce projet :
+
+- [Markdown Cheat Sheet]('https://www.markdownguide.org/cheat-sheet/')
+- [GitHub Cheat Sheet]('https://training.github.com/downloads/fr/github-git-cheat-sheet.pdf')
+- [GitHub Get Started]('https://docs.github.com/fr/get-started/quickstart/hello-world')
+- [GitHub Set up]('https://docs.github.com/fr/get-started/quickstart/set-up-git')
 
 :warning: Ce repository est mis à jour régulièrement
+
+
+```
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
+
+Here's a sentence with a footnote. [^1]
+
+[^1]: This is the footnote.
