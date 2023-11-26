@@ -8,6 +8,8 @@ Voici les objectifs de ce module :
 
 ## PLANNING
 
+Durant le module, une étude de cas sera réalisé sur les données annuelles des accidents corporels de la circulation routière. Les données sont disponibles dans le dossier [/data](https://github.com/asardell/IUT_SD3/data). Elles sont issues du site [www.data.gouv.fr](https://www.data.gouv.fr/fr/datasets/bases-de-donnees-annuelles-des-accidents-corporels-de-la-circulation-routiere-annees-de-2005-a-2022/).
+
 Pour cela, nous découperons les séances comme telles : 
 
 1. Utilisation de GitHub et Visual Studio Code
@@ -18,26 +20,14 @@ Pour cela, nous découperons les séances comme telles :
 6. Versionnement de modèle et deploiement avec ML Flow
 7. Etude de cas
 
+#
 ## LIENS UTILES
 
 Voici quelques liens utiles qui pourrait vous aider durant ce projet :
 
-- [Markdown Cheat Sheet]('https://www.markdownguide.org/cheat-sheet/')
-- [GitHub Cheat Sheet]('https://training.github.com/downloads/fr/github-git-cheat-sheet.pdf')
-- [GitHub Get Started]('https://docs.github.com/fr/get-started/quickstart/hello-world')
-- [GitHub Set up]('https://docs.github.com/fr/get-started/quickstart/set-up-git')
+- [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
+- [GitHub Cheat Sheet](https://training.github.com/downloads/fr/github-git-cheat-sheet.pdf)
+- [GitHub Get Started](https://docs.github.com/fr/get-started/quickstart/hello-world)
+- [GitHub Set up](https://docs.github.com/fr/get-started/quickstart/set-up-git)
 
-:warning: Ce repository est mis à jour régulièrement
-
-
-```
-{
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
-}
-```
-
-Here's a sentence with a footnote. [^1]
-
-[^1]: This is the footnote.
+:warning: Ce repository est mis à jour régulièrement. Pour le moment, seule le TD 1 est disponible.
