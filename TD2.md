@@ -11,7 +11,7 @@ Voici les objectifs de ce cours :
 
 ## TD2
 
-Dans ce TD, vous utiliserez le même repository  `iut_sd3_accidents` de la séance précédente. Pour simplifier le versionnement de votre projet, vous pouvez utiliser GitHub Desktop à la place des commandes Git Bash si vous le souhaitez.
+Dans ce TD, vous utiliserez le même repository  `iut_sd3_accidents` de la séance précédente. Pour simplifier le versionnement de votre projet, vous pouvez utiliser GitHub Desktop à la place des commandes Git Bash si vous le souhaitez. Merci de mettre votre repository en public et de m'envoyer le lien de votre repository par mail en fin de session.
 
 ### Exercice 1 - Création d'environnement virtuel
 
@@ -66,6 +66,7 @@ cd C:\Users\Anthony\Documents\asardell\my_virtual_envs
 
 Pour rappel, la commande `cd` pour *change directory* permet de se déplacer de dossier en dossier en changeant le chemin du répertoire courant.
 Une fois dans le bon dossier vous pouvez créer votre environnement.
+
 :warning: Ne pas utiliser créer votre environnement virtuel dans votre dossier projet.
 
 ### Exercice 2 - Activer son environnement virtuel
@@ -119,8 +120,83 @@ Dans cette question on souhaite enregistrer le fichier *requirements.txt* à la 
 ```
 pip install -r requirements.txt
 ```
+
 :warning: Il faut se placer dans le répértoire où le fichier est présent sinon il sera introuvable.
 
 11. Vérifier que les librairies du fichier *requirements.txt* ont bien été installées sur l'environnement `test-env`.
 
 ### Exercice 3 - Utiliser son environnement virtuel dans Visual Studio Code
+
+Toutes les questions de cet exercice sont à réaliser sur la branche *`DEV`* de votre repository `iut_sd3_accidents` en activant votre environnement virtuel `env-accident`.
+
+1. Ouvrer Visual Studio Code et activer votre environnement depuis un invite de commandes *cmd* de VS Code. 
+
+2. Créer un script python appelée *`step2.py`* à la racine de votre projet. Ajouter une ligne de code dans le script :
+```
+print("Bon courage pour la suite")
+```
+
+3. Tester l'exécution du script *`step2.py`*. Pour cela, naviguez dans l'invite de commandes *cmd* de VS Codeun vers le répertoire où se trouve votre script Python en utilisant la commande `cd`. Une fois que vous êtes dans le bon répertoire, vous pouvez exécuter votre script en utilisant la commande :
+```
+python step2.py 
+```
+4. Le résultat de votre print s'affiche dans la console.
+
+### Exercice 4 - Préparation des données
+
+Toutes les questions de cet exercice sont à réaliser sur la branche *`DEV`* de votre repository `iut_sd3_accidents` en activant votre environnement virtuel `env-accident`. Pensez à mettre des commentaires dans votre script !
+
+:warning: Vous aurez besoin du fichier *`/step1/merged_data.csv` pour faire cet exercice.
+
+![](media/good_luck.gif)
+
+1. Utiliser le script *`step2.py`* pour traiter la partie *Traitement des valeurs manquantes* du tutoriel d'[Ilyes Talbi](https://larevueia.fr/xgboost-vs-random-forest-predire-la-gravite-dun-accident-de-la-route/)
+
+- Créer un dossier *`step2` à la racine du projet.
+- Exporter dans ce dossier le dataframe avec les valeurs manquantes traitées dans un fichier appelé *`missing_values_deleted.csv`*
+- Exporter dans ce dossier le ou les graphiques de cette étape au format *.png*.
+
+2. Créer un script *`step3.py`* pour traiter la partie *Encodage de hrmn, du mois* du tutoriel d'[Ilyes Talbi](https://larevueia.fr/xgboost-vs-random-forest-predire-la-gravite-dun-accident-de-la-route/)
+
+- Créer un dossier *`step3` à la racine du projet.
+- Exporter dans ce dossier le dataframe avec l'encodage de `hrmn`, du `mois` dans un fichier appelé *`time_encoding.csv`*
+
+3. Créer un script *`step4.py`* pour traiter la partie *Encodage de la position GPS* du tutoriel d'[Ilyes Talbi](https://larevueia.fr/xgboost-vs-random-forest-predire-la-gravite-dun-accident-de-la-route/)
+
+- Créer un dossier *`step4` à la racine du projet.
+- Exporter dans ce dossier le dataframe avec l'encodage de `gps` un fichier appelé *`gps_encoding.csv`*
+
+:warning: Vous n'avez peut-être jamais étudié l'algorithme des KMeans qui permet de faire du *Clustering*, pas de panique. Pour comprendre les grands principes, vous pouvez lire cette [documentation](https://blent.ai/blog/a/k-means-comment-ca-marche) et/ou jouer avec cette [démo](https://www.naftaliharris.com/blog/visualizing-k-means-clustering/)
+
+4. Créer un script *`step5.py`* pour traiter la partie *Encodage One-Hot des variables catégoriques* du tutoriel d'[Ilyes Talbi](https://larevueia.fr/xgboost-vs-random-forest-predire-la-gravite-dun-accident-de-la-route/)
+
+- Créer un dossier *`step5` à la racine du projet.
+- Exporter dans ce dossier le dataframe avec l'encodage One-Hot des variables catégoriques dans un fichier appelé *`one_hot_encoding.csv`*
+
+### Exercice 5 - Analyse Data Science
+
+Toutes les questions de cet exercice sont à réaliser sur la branche *`DEV`* de votre repository `iut_sd3_accidents` en activant votre environnement virtuel `env-accident`. Pensez à mettre des commentaires dans votre script !
+Dans cette exercice, on cherche à prédire la gravité d'un accident d'après la variable `grav`.
+
+1. Construire l'échantillon d'apprentissage et de test.
+
+- Créer un dossier *`step6`
+- Exporter dans ce dossier l'échantillon *train* dans un fichier appelé *`train.csv`*
+- Exporter dans ce dossier l'échantillon *test* dans un fichier appelé *`test.csv`*
+
+2. Tester un modèle d'arbre de décision et calculer les métriques d'évaluations usuelles.
+
+3. Tester un modèle de KNN et calculer les métriques d'évaluations usuelles.
+
+4. Tester un modèle de Régressin logistique et calculer les métriques d'évaluations usuelles.
+
+5. Exporter à la racine du projet le meilleure modèle dans un fichier appelé *`best_model.pkl`* , voici [un exemple](https://practicaldatascience.co.uk/machine-learning/how-to-save-and-load-machine-learning-models-using-pickle) .
+
+6. N'oubliez pas de `commit` puis `push` sur votre branche *`DEV`*
+
+## LIENS UTILES
+
+Voici quelques liens utiles qui pourrait vous aider durant ce projet :
+
+- [Environnement virtuel](https://www.docstring.fr/glossaire/environnement-virtuel)
+- [Tutoriel d'Ilyes Talbi de la revue IA](https://larevueia.fr/xgboost-vs-random-forest-predire-la-gravite-dun-accident-de-la-route/)

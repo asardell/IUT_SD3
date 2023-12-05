@@ -75,7 +75,7 @@ ssh-keygen
 ```
 6. Saisir `id_rsa` comme filename pour sauvegarder la clé ssh
 7. Entrer une passphrase qui permettra de se connecter à votre compte GitHub à chaque connexion
-8. Ajouter la clé en tant que nouvelle clé dans les paramètres de votre compte GitHub online ([voir lien utile](https://linuxhint.com/clone-repo-with-ssh-key-in-git/))
+8. Ajouter la clé en tant que nouvelle clé dans les paramètres de votre compte GitHub online ([voir lien utile](https://linuxhint.com/clone-repo-with-ssh-key-in-git/)). Vous avez le choix entre la clé public ou privée selon la visibilité de votre compte.
 9. Tester la connexion SSH avec : 
 ```
 eval "$(ssh-agent -s)"
