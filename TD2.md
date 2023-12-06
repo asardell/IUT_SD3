@@ -146,7 +146,7 @@ python step2.py
 
 Toutes les questions de cet exercice sont à réaliser sur la branche *`DEV`* de votre repository `iut_sd3_accidents` en activant votre environnement virtuel `env-accident`. Pensez à mettre des commentaires dans votre script !
 
-:warning: Vous aurez besoin du fichier *`/step1/merged_data.csv` pour faire cet exercice.
+:warning: Vous aurez besoin du fichier *`/step1/merged_data.csv`* pour faire cet exercice.
 
 ![](media/good_luck.gif)
 
