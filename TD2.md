@@ -136,7 +136,7 @@ Toutes les questions de cet exercice sont à réaliser sur la branche *`DEV`* de
 print("Bon courage pour la suite")
 ```
 
-3. Tester l'exécution du script *`step2.py`*. Pour cela, naviguez dans l'invite de commandes *cmd* de VS Codeun vers le répertoire où se trouve votre script Python en utilisant la commande `cd`. Une fois que vous êtes dans le bon répertoire, vous pouvez exécuter votre script en utilisant la commande :
+3. Tester l'exécution du script *`step2.py`*. Pour cela, naviguez dans l'invite de commandes *cmd* de VS Code vers le répertoire où se trouve votre script Python en utilisant la commande `cd`. Une fois que vous êtes dans le bon répertoire, vous pouvez exécuter votre script en utilisant la commande :
 ```
 python step2.py 
 ```
