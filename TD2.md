@@ -152,25 +152,25 @@ Toutes les questions de cet exercice sont à réaliser sur la branche *`DEV`* de
 
 1. Utiliser le script *`step2.py`* pour traiter la partie *Traitement des valeurs manquantes* du tutoriel d'[Ilyes Talbi](https://larevueia.fr/xgboost-vs-random-forest-predire-la-gravite-dun-accident-de-la-route/)
 
-- Créer un dossier *`step2` à la racine du projet.
+- Créer un dossier *`step2`* à la racine du projet.
 - Exporter dans ce dossier le dataframe avec les valeurs manquantes traitées dans un fichier appelé *`missing_values_deleted.csv`*
 - Exporter dans ce dossier le ou les graphiques de cette étape au format *.png*.
 
 2. Créer un script *`step3.py`* pour traiter la partie *Encodage de hrmn, du mois* du tutoriel d'[Ilyes Talbi](https://larevueia.fr/xgboost-vs-random-forest-predire-la-gravite-dun-accident-de-la-route/)
 
-- Créer un dossier *`step3` à la racine du projet.
+- Créer un dossier *`step3`* à la racine du projet.
 - Exporter dans ce dossier le dataframe avec l'encodage de `hrmn`, du `mois` dans un fichier appelé *`time_encoding.csv`*
 
 3. Créer un script *`step4.py`* pour traiter la partie *Encodage de la position GPS* du tutoriel d'[Ilyes Talbi](https://larevueia.fr/xgboost-vs-random-forest-predire-la-gravite-dun-accident-de-la-route/)
 
-- Créer un dossier *`step4` à la racine du projet.
+- Créer un dossier *`step4`* à la racine du projet.
 - Exporter dans ce dossier le dataframe avec l'encodage de `gps` un fichier appelé *`gps_encoding.csv`*
 
 :warning: Vous n'avez peut-être jamais étudié l'algorithme des KMeans qui permet de faire du *Clustering*, pas de panique. Pour comprendre les grands principes, vous pouvez lire cette [documentation](https://blent.ai/blog/a/k-means-comment-ca-marche) et/ou jouer avec cette [démo](https://www.naftaliharris.com/blog/visualizing-k-means-clustering/)
 
 4. Créer un script *`step5.py`* pour traiter la partie *Encodage One-Hot des variables catégoriques* du tutoriel d'[Ilyes Talbi](https://larevueia.fr/xgboost-vs-random-forest-predire-la-gravite-dun-accident-de-la-route/)
 
-- Créer un dossier *`step5` à la racine du projet.
+- Créer un dossier *`step5`* à la racine du projet.
 - Exporter dans ce dossier le dataframe avec l'encodage One-Hot des variables catégoriques dans un fichier appelé *`one_hot_encoding.csv`*
 
 ### Exercice 5 - Analyse Data Science
