@@ -67,7 +67,7 @@ cd C:\Users\Anthony\Documents\asardell\my_virtual_envs
 Pour rappel, la commande `cd` pour *change directory* permet de se déplacer de dossier en dossier en changeant le chemin du répertoire courant.
 Une fois dans le bon dossier vous pouvez créer votre environnement.
 
-:warning: Ne pas utiliser créer votre environnement virtuel dans votre dossier projet.
+:warning: Ne pas créer votre environnement virtuel dans votre dossier projet.
 
 ### Exercice 2 - Activer son environnement virtuel
 
