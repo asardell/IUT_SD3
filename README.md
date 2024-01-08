@@ -33,4 +33,4 @@ Voici quelques liens utiles qui pourrait vous aider durant ce projet :
 - [GitHub Set up](https://docs.github.com/fr/get-started/quickstart/set-up-git)
 - [Tutoriel d'Ilyes Talbi de la revue IA](https://larevueia.fr/xgboost-vs-random-forest-predire-la-gravite-dun-accident-de-la-route/)
 
-:warning: Ce repository est mis à jour régulièrement. Pour le moment, seule le TD 1 est disponible.
+:warning: Ce repository est mis à jour régulièrement. Pour le moment, seule le TD 3 sont disponibles.
