@@ -28,18 +28,13 @@ Voici les objectifs de ce cours :
 ### Accidents de la route
 
 1. Tester le notebook avec les commandes utiles
-
 2. Importer les 4 fichiers csv d'accidents en tant que table dans un notebook databricks
-
 3. Merger les 4 fichiers dans un autre notebook databricks et exporter la table de résultat dans une nouvelle table
-
 4. S'aider du [tutoriel d'Ilyes Talbi de la revue IA](https://larevueia.fr/xgboost-vs-random-forest-predire-la-gravite-dun-accident-de-la-route/) pour tester des modèles de prédictions avec les méthodes de KNN, Arbre de décision, Régression logistique et Ramdom Forest.
-
 5.  Pour les méthodes de KNN et arbre de décision, utilisez la méthode GridSearch de scikit-learn pour trouver les meilleurs paramètres de chaque type de modèle.
-
-6.  Construire dans un seul graphique, une courbe ROC pour chaque type de modèle
-
-7.  Inscrire le modèle retenu dans databricks
+6. Calculer les métriques (accuracy, f1-score) de chaque modèle pour comparer leur performance
+7. Construire dans un seul graphique, une courbe ROC pour chaque type de modèle
+8.  Inscrire le modèle retenu dans databricks
 
 ## LIENS UTILES
 
