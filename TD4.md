@@ -39,6 +39,27 @@ CREATE OR REPLACE STAGE DB_IUT_SD3.PUBLIC.STAGE_NAME
   CREDENTIALS=(AZURE_SAS_TOKEN='xxx');
 ```
 
+4. Selectionner les données du fichier
+
+```
+list @DB_IUT_SD3.PUBLIC.STAGE_SAIUTSD3/accidents_project/;
+
+CREATE OR REPLACE FILE FORMAT DB_IUT_SD3.PUBLIC.MY_CSV_FORMAT
+  TYPE = CSV
+  FIELD_DELIMITER = ';'
+  SKIP_HEADER = 1
+  NULL_IF = ('NULL', 'null')
+  EMPTY_FIELD_AS_NULL = true
+;
+
+CREATE OR REPLACE EXTERNAL TABLE DB_IUT_SD3.PUBLIC.CARAC
+  WITH LOCATION = @DB_IUT_SD3.PUBLIC.STAGE_SAIUTSD3/accidents_project/
+  FILE_FORMAT  = DB_IUT_SD3.PUBLIC.MY_CSV_FORMAT
+  PATTERN='.*carac.*.csv';
+
+ SELECT * FROM DB_IUT_SD3.PUBLIC.CARAC LIMIT 10;
+```
+
 ## Liens utiles
 
 - https://docs.snowflake.com/en/sql-reference/sql/create-storage-integration#examples
