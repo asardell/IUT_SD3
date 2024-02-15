@@ -35,7 +35,7 @@ CREATE STORAGE INTEGRATION SINT_IUT_SD3
 
 ```
 CREATE OR REPLACE STAGE DB_IUT_SD3.PUBLIC.STAGE_NAME
-  URL='azure://storage_account_name.blob.core.windows.net/{container_name}/'
+  URL='azure://{storage_account_name}.blob.core.windows.net/{container_name}/'
   CREDENTIALS=(AZURE_SAS_TOKEN='xxx');
 ```
 
