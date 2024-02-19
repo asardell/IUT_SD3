@@ -42,7 +42,7 @@ Les données de l'examen portent sur les accidents de la route. Le sujet a été
 
 4. Suivre toutes les étapes de *Pre Processing* du [Tutoriel d'Ilyes Talbi de la revue IA](https://larevueia.fr/xgboost-vs-random-forest-predire-la-gravite-dun-accident-de-la-route/).
 
-5. Construire l'échantillon *train* et *test* avec **80%** des données pour l'apprentissage.
+5. Construire l'échantillon *train* et *test* avec **10%** des données pour l'apprentissage.
 
 6. Construire un modèle de `KNeighborsClassifier`. Pour trouver les meilleurs paramètres d'un modèle, utilisez la commande `GridSearchCV` pour optimiser le paramètre `n_neighbors`.
 
